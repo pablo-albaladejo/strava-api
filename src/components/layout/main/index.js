@@ -14,7 +14,7 @@ const MainLayout = ({ children }) =>
 
         <div className="footer">
             <div className="footerItems">
-                <span>Pablo Albaladejo Mestre - Strava API</span>
+                <span>Pablo Albaladejo Mestre</span>
             </div>
         </div>
 
