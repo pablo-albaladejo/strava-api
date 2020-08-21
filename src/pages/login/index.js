@@ -1,7 +1,7 @@
 import React from 'react';
 import MainLayout from '../../components/layout/main';
 const { REACT_APP_CLIENT_ID, REACT_APP_REDIRECT_URI } = process.env;
-console.log(process.env)
+//console.log(process.env)
 const LoginPage = () => (
     <MainLayout>
         <div className="App">
