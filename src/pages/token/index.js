@@ -17,8 +17,11 @@ const TokenPage = ({ location: { search } }) => {
       });
       console.log(auth);
 
-      const activities =  await activityService.getAthleteActivities({token: auth.access_token});
+      const activities = await activityService.getAthleteActivities({ token: auth.access_token });
       console.log(activities);
+
+      const stream = await activityService.getActiviyStream({ token: auth.access_token, activityId: activities[0].id });
+      console.log(stream);
     }
     getToken(code);
   }, [REACT_APP_CLIENT_ID, REACT_APP_CLIENT_SECRET, code]);
