@@ -25,7 +25,7 @@ export const getActiviyStream = ({ token, activityId }) => {
       method: FETCH_METHODS.GET,
       token,
       params: {
-        keys: [`latlng`,`timer_time`,`altitude`,`distance`], 
+        keys: [`latlng`,`timer_time`,`altitude`], 
         //https://rdrr.io/github/fawda123/rStrava/man/get_streams.html
         //"time", "latlng", "distance", "altitude", "velocity_smooth", "heartrate", "cadence", "watts", "temp", "moving", or "grade_smooth"
         key_by_type: true
