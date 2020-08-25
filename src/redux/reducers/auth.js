@@ -1,7 +1,7 @@
 import { SET_AUTH } from "../actions/auth";
 
 const initialState = {
-  jwt: null
+  token: null
 };
 
 export default function auth(state = initialState, { type, payload }) {
@@ -9,7 +9,7 @@ export default function auth(state = initialState, { type, payload }) {
     case SET_AUTH:
       return {
         ...state,
-        jwt: payload.jwt
+        token: payload.token
       }
 
     default:
