@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "https://pablo-albaladejo.github.io/strava-api/static/css/main.a7d79edc.chunk.css",
+    "main.js": "https://pablo-albaladejo.github.io/strava-api/static/js/main.223d274f.chunk.js",
+    "runtime-main.js": "https://pablo-albaladejo.github.io/strava-api/static/js/runtime-main.cf7700e0.js",
+    "static/js/2.7e0dff2e.chunk.js": "https://pablo-albaladejo.github.io/strava-api/static/js/2.7e0dff2e.chunk.js",
+    "index.html": "https://pablo-albaladejo.github.io/strava-api/index.html",
+    "precache-manifest.094e33fb774523e8dd9f6f7fae1f0fe5.js": "https://pablo-albaladejo.github.io/strava-api/precache-manifest.094e33fb774523e8dd9f6f7fae1f0fe5.js",
+    "service-worker.js": "https://pablo-albaladejo.github.io/strava-api/service-worker.js",
+    "static/js/2.7e0dff2e.chunk.js.LICENSE.txt": "https://pablo-albaladejo.github.io/strava-api/static/js/2.7e0dff2e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cf7700e0.js",
+    "static/js/2.7e0dff2e.chunk.js",
+    "static/css/main.a7d79edc.chunk.css",
+    "static/js/main.223d274f.chunk.js"
+  ]
+}
